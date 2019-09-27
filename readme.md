@@ -4,7 +4,8 @@ Run the project:
 
 Clone the project
 - run composer install
-- run php artisan migrate
+- copy .env.example to .env and configer the database
+- run php artisan migrate 
 - run php artisan passport:install
 - and php artisan serve
 
