@@ -9,30 +9,29 @@ Clone the project
 - and php artisan serve
 
 
-For Register as a New User 
+For Register as a New User <br />
 Method POST, URL localhost:8000/api/register (Provide name, email, password, c_password)
 
-For Login
+For Login <br />
 Method POST, URL localhost:8000/api/login (Provide email, password)
 
-For Open New Account (after login and provide authorized token)
+For Open New Account (after login and provide authorized token) <br />
 Method POST, URL localhost:8000/api/account (Provide account_no, currency)
 
-For Account List with Balance
+For Account List with Balance <br />
 Method GET, URL localhost:8000/api/account
 
-For Individual Account Balance
+For Individual Account Balance <br />
 Method POST, URL localhost:8000/api/currentbalance (Provide account_no)
 
-For Depost
+For Depost <br />
 Method POST, URL localhost:8000/api/deposit (Provide account_no, amount)
-
-For Withdraw
+ 
+For Withdraw <br />
 Method POST, URL localhost:8000/api/withdraw (Provide account_no, amount)
 
-For Transfer
+For Transfer <br />
 Method POST, URL localhost:8000/api/transfer (Provide account_no, transfer_account_no, amount)
 
-For Transaction History
+For Transaction History <br />
 Method POST, URL localhost:8000/api/transaction (Provide account_no)
-
