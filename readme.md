@@ -3,7 +3,7 @@
 Run the project:
 
 Clone the project
-- run composer update
+- run composer install
 - run php artisan migrate
 - run php artisan passport:install
 - and php artisan serve
