@@ -270,7 +270,7 @@ class TransactionController extends Controller
 		return response()->json([
                 'success' => true,
 	            'data'    => $transaction,
-	            'message' => 'Transaction history.'
+	            'message' => 'Transfer history.'
             ], 200);
 
     }
